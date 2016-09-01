@@ -1,0 +1,61 @@
+.big-outter-container {
+  width: 70%;
+  height: 70%;
+  border: 2px solid black;
+  margin: auto;
+  position: relative;
+  background-color: #334653;
+}
+
+.second-exercise {
+  width: 25px;
+  height: 25px;
+  margin: auto;
+  margin-top: 25px;
+  border: 2px solid white;
+  text-align: center;
+  font-size: 1.5em;
+  color: white;
+}
+
+.date {
+  font-family: 'Vollkorn', serif;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  color: white;
+}
+
+.text-center {
+  width: 70%;
+  margin: auto;
+  /* text-align: center; */
+  margin-bottom: 20px;
+}
+
+span {
+color: #f2f2f2;
+background: #ff4a4a;
+border: 1px solid white;
+display: inline-flex;
+font-size: 50px;
+line-height: 49px;
+margin: 0 5px 24px;
+padding: 10px;
+font-family: 'Vollkorn', serif;
+}
+
+.could-content {
+  margin-top: 30px;
+}
+
+.wont-content span {
+  background-color: #f2f2f2;
+  color: #ff4a4a;
+}
+
+.animal, .could, .wont {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2em;
+  font-style: italic;
+}
