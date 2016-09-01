@@ -1,48 +1,40 @@
+/* SECOND WEEK OF FONTS */
+
 .big-outter-container {
-  width: 70%;
-  height: 70%;
+  background-color: #334653;
   border: 2px solid black;
+  height: 70%;
   margin: auto;
   position: relative;
-  background-color: #334653;
+  width: 70%;
 }
 
 .second-exercise {
-  width: 25px;
+  border: 2px solid white;
+  color: white;
+  font-size: 1.5em;
   height: 25px;
   margin: auto;
   margin-top: 25px;
-  border: 2px solid white;
   text-align: center;
-  font-size: 1.5em;
-  color: white;
+  width: 25px;
 }
 
 .date {
-  font-family: 'Vollkorn', serif;
-  position: absolute;
-  left: 2px;
-  top: 2px;
   color: white;
+  font-size: 1.2em;
+  font-family: 'Vollkorn', serif;
+  left: 0;
+  position: absolute;
+  top: 0;
 }
 
+/* OUTTER CONTAINER FOR THE COULD-CONTENT
+AND WONT-CONTENT SECTIONS */
 .text-center {
-  width: 70%;
   margin: auto;
-  /* text-align: center; */
-  margin-bottom: 20px;
-}
-
-span {
-color: #f2f2f2;
-background: #ff4a4a;
-border: 1px solid white;
-display: inline-flex;
-font-size: 50px;
-line-height: 49px;
-margin: 0 5px 24px;
-padding: 10px;
-font-family: 'Vollkorn', serif;
+  margin-bottom: 60px;
+  width: 70%;
 }
 
 .could-content {
@@ -54,8 +46,41 @@ font-family: 'Vollkorn', serif;
   color: #ff4a4a;
 }
 
+/* GLOBAL STYLING FOR ALL SPANS */
+span {
+  color: #f2f2f2;
+  background: #ff4a4a;
+  border: 1px solid white;
+  display: inline-flex;
+  font-family: 'Vollkorn', serif;
+  font-size: 50px;
+  line-height: 49px;
+  margin: 0 5px 24px;
+  padding: 10px;
+}
+
+/* STYLING FOR SPECFIC SPANS */
 .animal, .could, .wont {
   font-family: 'Open Sans', sans-serif;
   font-size: 2em;
   font-style: italic;
+}
+
+.vollkorn-font, .open-sans-font {
+  color: white;
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.vollkorn-font {
+  font-family: 'Vollkorn', serif;
+}
+.open-sans-font {
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+  bottom: 25px;
+
 }
