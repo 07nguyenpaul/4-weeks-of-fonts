@@ -30,7 +30,7 @@
 }
 
 .left-half-of-phrase {
-  background-color: #1700E8;
+  background-color: #0B93DE;
   flex-direction: row;
   left: 0;
   height: 100%;
@@ -47,7 +47,6 @@
   text-align: center;
   text-shadow: 20px 0px 15px #BFBFBF;
   width: 70%;
-  -webkit-text-stroke: 1px white;
 }
 
 .fire-image {
@@ -69,7 +68,7 @@
 }
 
 .right-half-of-phrase {
-  background-color: red;
+  background-color: #FF4936;
   flex-direction: row;
   height: 100%;
   position: absolute;
@@ -87,7 +86,7 @@
   position: absolute;
   right: 8%;
   text-align: center;
-  /* -webkit-text-stroke: 1px black; */
+  -webkit-text-stroke: 1px black;
   width: 80%;
 }
 
