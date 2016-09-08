@@ -1,0 +1,115 @@
+.week-3-container {
+  background: url(images/background-img.jpg) no-repeat center center fixed;
+  background-image: cover;
+  border: 2px solid black;
+  height: 70%;
+  margin: auto;
+  margin-top: 40px;
+  position: relative;
+  width: 70%;
+  height: 600px;
+}
+
+.week-3-container .date {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h3, h4, h5 {
+  text-align: center;
+}
+
+.everything, .including {
+  color: white;
+  font-size: 2em;
+  font-family: 'Arvo', serif;
+}
+
+.everything {
+  margin-top: 100px;
+}
+
+h4 {
+  margin-top: 15px;
+  font-size: 4em;
+  color: #0BC2A4;
+  letter-spacing: 7px;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.including {
+  margin-top: 15px;
+}
+
+.author {
+  font-family: 'Noto Sans', sans-serif;
+  position: absolute;
+  right: 20%;
+  margin-top: 15px;
+  font-size: 1em;
+  color: white;
+}
+.noto-sans-font, .arvo-font {
+  text-decoration: none;
+  color: white;
+  position: absolute;
+}
+
+.noto-sans-font {
+  font-family: 'Noto Sans', sans-serif;
+  bottom: 0;
+}
+
+.arvo-font {
+  font-family: 'Arvo', serif;
+  bottom: 15px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 890px) {
+  .everything, .including {
+    font-size: 1.5em;
+  }
+
+  h4 {
+    font-size: 3.5em;
+  }
+}
+
+@media (max-width: 800px) {
+  .week-3-container {
+    width: 90%;
+  }
+
+  h4 {
+    font-size: 3em;
+  }
+}
+
+@media (max-width: 650px) {
+  .week-3-container {
+    height: 450px;
+  }
+  h4 {
+    font-size: 2.5em;
+  }
+}
+
+@media (max-width: 550px) {
+  .everything, .including {
+    font-size: 1.5em;
+  }
+  h4 {
+    font-size: 2.2em;
+  }
+}
+
+@media (max-width: 550px) {
+  .week-3-container {
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  h4 {
+  font-size: 2em;
+  }
+}
