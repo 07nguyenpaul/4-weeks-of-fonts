@@ -2,7 +2,6 @@
   background: url(images/background-img.jpg) no-repeat center center fixed;
   background-image: cover;
   border: 2px solid black;
-  height: 70%;
   margin: auto;
   margin-top: 40px;
   position: relative;
@@ -48,6 +47,7 @@ h4 {
   font-size: 1em;
   color: white;
 }
+
 .noto-sans-font, .arvo-font {
   text-decoration: none;
   color: white;

@@ -1,0 +1,128 @@
+.week-4-container {
+  background-color: #F9F3EB;
+  background-image: url(images/asfalt-dark.png);
+  border: 2px solid #151515;
+  height: 600px;
+  margin: auto;
+  margin-top: 40px;
+  position: relative;
+  width: 70%;
+}
+
+.week-4-container .date {
+  color: #151515;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.date {
+  margin: 5px 0 0 5px;
+}
+
+.week-4-container .exercise {
+  border: 2px solid #151515;
+  color: #151515;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  margin-bottom: 100px;
+  overflow: visible;
+  position: relative;
+  width: 80%;
+}
+
+.firstFont {
+  color: #151515;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 1.5em;
+  letter-spacing: 8px;
+  line-height: 2em;
+  text-align: center;
+}
+
+.rule {
+  border-top: 4px solid #151515;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.secondFont {
+  color: #151515;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  left: 53%;
+  line-height: 2.75em;
+  position: absolute;
+  text-align: right;
+  text-transform: none;
+  top: 229px;
+  width: 35%;
+}
+
+.abril-font, .openSans-font {
+  color: #151515;
+  margin: 10px 0 10px 10px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.abril-font {
+  bottom: 0;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.openSans-font {
+  bottom: 15px;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 15px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1100px) {
+  .secondFont {
+    left: 52%;
+  }
+}
+
+@media (max-width: 840px) {
+  .week-4-container {
+    width: 90%;
+  }
+
+  .secondFont {
+    left: 47%;
+    width: 41%;
+  }
+}
+
+@media (max-width: 735px) {
+  .secondFont {
+    left: 37%;
+    width: 50%;
+  }
+}
+@media (max-width: 590px) {
+  .secondFont {
+    left: 27%;
+    width: 60%;
+  }
+}
+@media (max-width: 490px) {
+  .secondFont {
+    left: 27%;
+    top: 184px;
+    width: 60%;
+  }
+}
+
+@media (max-width: 400px) {
+  .week-4-container {
+    width: 100%;
+  }
+}
